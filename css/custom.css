@@ -1,0 +1,171 @@
+/*This is a custom CSS filesheet*/
+body{
+	background-color: #ECECEA;
+	font-size: 16px;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+}
+
+li>.skill{
+	font-weight: 600;
+}
+
+#skills li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: block;
+}
+
+#skills li:hover{
+	background-color: #CED5C0;
+}
+
+.description{
+	background: #d1d4dd;
+	padding-bottom: 5px;
+	margin-right: 20px;
+}
+
+.description > h4{
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+
+.description > small{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.row{
+	display: table;
+	margin-bottom: 5px;
+}
+
+[class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.page-container{
+	padding:40px 180px;
+	min-height:100%;
+}
+
+.navbar{
+	background-color: #e1e1e1;
+	font-size: 18px;
+}
+
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #FFF;
+      background: #4a6084;
+ }
+
+ h1{
+ 	text-align: center;
+ }
+
+ .lead{
+ 	text-align: center;
+ }
+
+ .background-white{
+ 	background: #FFF	
+ }
+
+ @media (max-width: 768px) {
+    .page-container {
+      padding-right: 3px;
+      padding-left: 3px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+    }
+
+    .row{
+    	display: default;
+    }
+
+    [class*="col-"] {
+    	float: left;
+    	width: 100%;
+	}
+ }
+
+ #skills .rating{
+ 	float: right; 	
+ }
+
+ #skills .rating .glyphicon{
+ 	font-size: 14px;
+  	color: #d1d4dd;
+
+ 	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+ }
+
+
+#skills .rating .glyphicon.filled{
+	color: #f5ae23;
+}
+
+#skills ul > li:hover .rating .glyphicon { margin-left: 2px; } 
+
+ .skill{
+ 	width:60%;
+ }
+
+ .no-bullets{
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+#projects [class*="col-"]{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+
+
+.bottom-aligned-text{
+	text-align: bottom;
+	vertical-align: bottom;
+}
+
+#contact{
+	padding-top: 10%;
+	background: #37373D;
+	color: #e1e1e1;
+	font-size: 23px;
+	font-weight: 300;
+}
+
+#contact h1, #contact hr{
+	color: #e1e1e1;
+}
+
+#contact .glyphicon{
+	font-size: 25px;
+	padding-right: 10px;
+}
+
+#contact li{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+footer{
+	background: #C2B4F4;
+	height:50px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
