@@ -35,12 +35,12 @@ li>.skill{
 	padding-bottom:10px;
 }
 
-.row{
+#experience .row{
 	display: table;
 	margin-bottom: 5px;
 }
 
-[class*="col-"] {
+#experience [class*="col-"] {
     float: none;
     display: table-cell;
     vertical-align: top;
@@ -75,7 +75,7 @@ li>.skill{
  	background: #FFF	
  }
 
- @media (max-width: 768px) {
+ @media (max-width: 1000px) {
     .page-container {
       padding-right: 3px;
       padding-left: 3px;
@@ -88,11 +88,11 @@ li>.skill{
       padding:0;
     }
 
-    .row{
+    #experience .row{
     	display: default;
     }
 
-    [class*="col-"] {
+    #experience [class*="col-"] {
     	float: left;
     	width: 100%;
 	}
