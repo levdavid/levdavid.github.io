@@ -1,8 +1,8 @@
 /*This is a custom CSS filesheet*/
 body{
 	background-color: #ECECEA;
-	font-size: 16px;
-	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+	font-size: 18px;
+	font-family: Perpetua Volume; 
 }
 
 li>.skill{
@@ -77,15 +77,18 @@ li>.skill{
 
  @media (max-width: 1000px) {
     .page-container {
-      padding-right: 3px;
-      padding-left: 3px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      margin:0;
+     padding: 10px;
+     margin: 0;
+    }
+
+    .container{
+    	padding:0;
+    	margin:0;
     }
 
     body {
       padding:0;
+      margin:0;
     }
 
     #experience .row{
