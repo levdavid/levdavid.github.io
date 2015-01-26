@@ -91,6 +91,13 @@ li>.skill{
       margin:0;
     }
 
+    small{
+    	padding-right: 50px;
+    }
+
+    br{
+    	display:none;
+    }
     #experience .row{
     	display: default;
     }
