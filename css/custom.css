@@ -5,28 +5,10 @@ body{
 	font-family: Perpetua Volume; 
 }
 
-#background {
-	background: url(../img/background.png) repeat 5% 5%;
-	position: absolute;
-	top: 100; left: 0; right: 0; bottom: 0;
-	z-index: 100;
+.navbar{
+	 opacity: 0.9;
 }
 
-#midground {
-	background: url(../img/midground.png) repeat 20% 20%;
-	position: absolute;
-	top: 100; left: 0; right: 0; bottom: 0;
-	z-index: 200;
-}
-
-#foreground {
-	background: url(../img/foreground.png) repeat-x fixed center bottom;
-	
-	animation: animatedBackground 5s linear infinite;
-   -ms-animation: animatedBackground 5s linear infinite;
-   -moz-animation: animatedBackground 5s linear infinite;
-   -webkit-animation: animatedBackground 5s linear infinite;
-}
 li>.skill{
 	font-weight: 600;
 }
@@ -153,6 +135,14 @@ li>.skill{
     br{
     	display:none;
     }
+    
+    #front{
+    animation: animatedBackground 5s linear infinite;
+   -ms-animation: animatedBackground 5s linear infinite;
+   -moz-animation: animatedBackground 5s linear infinite;
+   -webkit-animation: animatedBackground 5s linear infinite;
+	}
+
     #experience .row{
     	display: default;
     }
