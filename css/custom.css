@@ -141,10 +141,10 @@ li>.skill{
     }
 
     #front{
-    animation: animatedBackground 5s linear infinite;
-   -ms-animation: animatedBackground 5s linear infinite;
-   -moz-animation: animatedBackground 5s linear infinite;
-   -webkit-animation: animatedBackground 5s linear infinite;
+    animation: animatedBackground 50s linear infinite;
+   -ms-animation: animatedBackground 50s linear infinite;
+   -moz-animation: animatedBackground 50s linear infinite;
+   -webkit-animation: animatedBackground 50s linear infinite;
 	}
 
     #experience .row{
