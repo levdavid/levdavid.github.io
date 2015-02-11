@@ -5,8 +5,62 @@ body{
 	font-family: Perpetua Volume; 
 }
 
+#background {
+	background: url(../img/background.png) repeat 5% 5%;
+	position: absolute;
+	top: 100; left: 0; right: 0; bottom: 0;
+	z-index: 100;
+}
+
+#midground {
+	background: url(../img/midground.png) repeat 20% 20%;
+	position: absolute;
+	top: 100; left: 0; right: 0; bottom: 0;
+	z-index: 200;
+}
+
+#foreground {
+	background: url(../img/foreground.png) repeat-x fixed center bottom;
+	
+	animation: animatedBackground 5s linear infinite;
+   -ms-animation: animatedBackground 5s linear infinite;
+   -moz-animation: animatedBackground 5s linear infinite;
+   -webkit-animation: animatedBackground 5s linear infinite;
+}
 li>.skill{
 	font-weight: 600;
+}
+
+#front{
+	min-height: 100%;
+	padding-top: 70px;
+	background: url(../img/foreground.png), url(../img/midground.png), url(../img/background.png);
+   background-position: 0 0, 0 0, 0 0;
+   animation: animatedBackground 30s linear infinite;
+   -ms-animation: animatedBackground 20s linear infinite;
+   -moz-animation: animatedBackground 20s linear infinite;
+   -webkit-animation: animatedBackground 20s linear infinite;
+}
+
+@-keyframes animatedBackground {
+  from { background-position: center bottom; }
+  to { background-position: 100% bottom; }
+}
+@-webkit-keyframes animatedBackground {
+    from { background-position: center bottom; }
+    to { background-position: 100% bottom; }
+}
+@-ms-keyframes animatedBackground {
+    from { background-position: center bottom; }
+    to { background-position: 100% 0; }
+}
+@-moz-keyframes animatedBackground {
+    from { background-position: center bottom; }
+    to { background-position: 100% bottom; }
+}
+
+
+#page-top img{
 }
 
 #skills li{
@@ -52,7 +106,7 @@ li>.skill{
 }
 
 .navbar{
-	background-color: #e1e1e1;
+	font-family: default;
 	font-size: 18px;
 }
 
