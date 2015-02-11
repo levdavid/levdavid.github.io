@@ -17,7 +17,7 @@ li>.skill{
 	min-height: 100%;
 	padding-top: 70px;
 	background: url(../img/foreground.png), url(../img/midground.png), url(../img/background.png);
-   background-position: 0 0, 0 0, 0 0;
+   background-position: 0,0, 0;
    animation: animatedBackground 30s linear infinite;
    -ms-animation: animatedBackground 20s linear infinite;
    -moz-animation: animatedBackground 20s linear infinite;
@@ -26,11 +26,11 @@ li>.skill{
 
 @-keyframes animatedBackground {
   from { background-position: center bottom; }
-  to { background-position: 100% bottom; }
+  to { background-position: 100% bottom, 150% bottom, 200% bottom; }
 }
 @-webkit-keyframes animatedBackground {
     from { background-position: center bottom; }
-    to { background-position: 100% bottom; }
+    to { background-position: 100% bottom, 150% bottom, 200% bottom; }
 }
 @-ms-keyframes animatedBackground {
     from { background-position: center bottom; }
@@ -38,7 +38,7 @@ li>.skill{
 }
 @-moz-keyframes animatedBackground {
     from { background-position: center bottom; }
-    to { background-position: 100% bottom; }
+    to { background-position: 100% bottom, 150% bottom, 200% bottom; }
 }
 
 
@@ -135,7 +135,7 @@ li>.skill{
     br{
     	display:none;
     }
-    
+
     #front{
     animation: animatedBackground 5s linear infinite;
    -ms-animation: animatedBackground 5s linear infinite;
