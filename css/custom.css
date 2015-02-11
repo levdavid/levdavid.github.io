@@ -136,6 +136,10 @@ li>.skill{
     	display:none;
     }
 
+    #front img{
+    	padding-top: 30%;
+    }
+
     #front{
     animation: animatedBackground 5s linear infinite;
    -ms-animation: animatedBackground 5s linear infinite;
