@@ -16,7 +16,6 @@ li>.skill{
 #front{
 	min-height: 100%;
 	padding-top: 70px;
-	background-color: #000;
 	background: url(../img/foreground.png), url(../img/midground.png), url(../img/background.png);
    background-position: 0, 0, 0;
    animation: animatedBackground 120s linear infinite;
@@ -24,6 +23,7 @@ li>.skill{
    -moz-animation: animatedBackground 120s linear infinite;
    -webkit-animation: animatedBackground 120s linear infinite;
    	background-image: url(../img/doge.png);
+	background-color: #000;
 
 }
 
