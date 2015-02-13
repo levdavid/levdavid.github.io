@@ -16,15 +16,14 @@ li>.skill{
 #front{
 	min-height: 100%;
 	padding-top: 70px;
+	background-color: #000;
+	background-image: url(../img/doge.png);
 	background: url(../img/foreground.png), url(../img/midground.png), url(../img/background.png);
    background-position: 0, 0, 0;
    animation: animatedBackground 120s linear infinite;
    -ms-animation: animatedBackground 120s linear infinite;
    -moz-animation: animatedBackground 120s linear infinite;
    -webkit-animation: animatedBackground 120s linear infinite;
-   	background-image: url(../img/doge.png);
-	background-color: #000;
-
 }
 
 @-keyframes animatedBackground {
