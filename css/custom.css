@@ -36,7 +36,7 @@ li>.skill{
 }
 @-ms-keyframes animatedBackground {
     from { background-position: left bottom; }
-    to { background-position: 1000% 0; }
+ 	to { background-position: 1000% bottom, 1500% bottom, 2000% bottom; }
 }
 @-moz-keyframes animatedBackground {
     from { background-position: left bottom; }
@@ -76,6 +76,7 @@ li>.skill{
 #experience .row{
 	display: table;
 	margin-bottom: 5px;
+	width:100%;
 }
 
 #experience [class*="col-"] {
@@ -142,12 +143,7 @@ li>.skill{
     	padding-top: 30%;
     }
 
-    #front{
-    animation: animatedBackground 50s linear infinite;
-   -ms-animation: animatedBackground 50s linear infinite;
-   -moz-animation: animatedBackground 50s linear infinite;
-   -webkit-animation: animatedBackground 50s linear infinite;
-	}
+    
 
     #experience .row{
     	display: default;
