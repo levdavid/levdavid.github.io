@@ -147,6 +147,7 @@ li>.skill{
 
     #experience .row{
     	display: default;
+    	width: auto;
     }
 
     #experience [class*="col-"] {
