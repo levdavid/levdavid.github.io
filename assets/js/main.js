@@ -63,6 +63,19 @@ jQuery(document).ready(function($){
 	});
 
 
+	// $(function(){
+	// 	$('.project').mouseenter(
+	// 		function(){
+	// 			$(this).find('.image').stop(true).animate({opacity:.3}, 250);
+	// 		}
+	// 	), 
+	// 	$('.project').mouseleave(
+	// 	function(){
+	// 		$(this).find('.image').stop(true).animate({opacity:1}, 250);
+	// 	});
+	// });
+
+
 	$(function() {
 
 		var	$window = $(window),

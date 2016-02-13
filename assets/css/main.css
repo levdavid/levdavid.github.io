@@ -156,6 +156,47 @@
 
 	}
 
+	.project{
+		position: relative;
+		display: inline-block;
+		overflow: hidden;
+	}
+
+	.project .image.fit{
+		margin:0;
+	}
+
+	.project a {
+	    display: block;
+	    position: absolute;
+	    top: -100%;
+	    opacity: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 0;
+	    text-align: center;
+	    color: #6599FF;
+		font-size: 50px;
+	}
+
+	.project:hover a span {
+	    top: 50%;
+	    position: absolute;
+	    left: 10%;
+	    right: 0;
+	    transform: translateY(-50%);
+	}
+
+	.project:hover a {
+	    opacity: 1; /* added */
+	    top: 0; /* added */
+	    z-index: 500;
+	}
+
+	.project:hover img{
+		opacity: .3;
+	}
+
 	@media screen and (max-width: 1140px) {
 
 		.container.\31 25\25 {
