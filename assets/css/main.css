@@ -175,7 +175,6 @@
 	    bottom: 0;
 	    right: 0;
 	    text-align: center;
-	    color: #6599FF;
 		font-size: 50px;
 	}
 
@@ -184,6 +183,7 @@
 	    position: absolute;
 	    left: 10%;
 	    right: 0;
+		color: #6599FF;
 	    transform: translateY(-50%);
 	}
 
@@ -193,8 +193,13 @@
 	    z-index: 500;
 	}
 
-	.project:hover img{
+	.project:hover .image{
 		opacity: .3;
+	}
+
+	.project .image{
+		-webkit-transition: .3s; /* Safari */
+    	transition: .3s;
 	}
 
 	@media screen and (max-width: 1140px) {
@@ -224,6 +229,12 @@
 	}
 
 	@media screen and (max-width: 980px) {
+
+		.skill-caption {
+			margin-bottom: 0px;
+			font-size:2em;
+			padding-left:25px !important;
+		}
 
 		.container.\31 25\25 {
 			width: 100%;
@@ -1181,7 +1192,7 @@
 		.\33 u\24\28medium\29 + *,
 		.\32 u\24\28medium\29 + *,
 		.\31 u\24\28medium\29 + * {
-			clear: left;
+			/*clear: left;*/
 		}
 
 		.\-11u\28medium\29 {
@@ -3290,7 +3301,7 @@
 		/* List */
 
 			ul.major-icons li {
-				padding: 2em;
+				padding-top: 2em;
 			}
 
 				ul.major-icons li .icon {
@@ -3360,7 +3371,7 @@
 		/* List */
 
 			ul.major-icons li {
-				padding: 1.5em;
+				padding-top: 1.5em;
 			}
 
 				ul.major-icons li .icon {
