@@ -58,6 +58,10 @@
 
 /* Containers */
 
+   .cd-timeline-img.cd-picture{
+      background: rgba(21,21,21,.85) !important;
+   }
+
 	.container {
 		margin-left: auto;
 		margin-right: auto;
@@ -3540,3 +3544,8 @@
 			}
 
 	}
+
+.cd-timeline-content li{
+   font-size: 1rem;
+   line-height: 1.6;
+}
