@@ -4,7 +4,12 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import 'fontawesome-all.min.css';
+// @import 'fontawesome-all.min.css';
+@import "fa/fontawesome.scss";
+// @import "fa/regular.scss";
+@import "fa/solid.scss";
+@import "fa/brands.scss";
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700');
 
 /*
@@ -12,6 +17,8 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+// $fa-font-path: "../webfonts";
 
 // Breakpoints.
 

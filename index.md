@@ -1,46 +1,21 @@
 ---
 layout: default
+title: Hi, I'm Lev.
 ---
 
 <!-- Section -->
 <section>
-	<header class="major">
-		<h2>Welcome to the internet, please follow me</h2>
-	</header>
-	<div class="features">
-		<article>
-			<span class="icon fa-diamond"></span>
-			<div class="content">
-				<h3>Portitor ullamcorper</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
-		</article>
-		<article>
-			<span class="icon fa-paper-plane"></span>
-			<div class="content">
-				<h3>Sapien veroeros</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
-		</article>
-		<article>
-			<span class="icon fa-rocket"></span>
-			<div class="content">
-				<h3>Quam lorem ipsum</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
-		</article>
-		<article>
-			<span class="icon fa-signal"></span>
-			<div class="content">
-				<h3>Sed magna finibus</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
-		</article>
+<h2 id="content">How are you?</h2>
+	<div class="inner">
+		<span class="icon major fa-hand-peace-o"></span>
+		<p>Hi everyone! My name is Lev and I am a Software Engineer at Bloomberg LP.<br/>
+		I’m fascinated with learning new material every day and expanding my knowledge not only in tech but also in arts, literature and sciences.<br/>Discovering solutions to the new questions is what motivates me for success.</p>
+		<a href="assets/doc/myResume.pdf" id="resume">My resume</a>
 	</div>
 </section>
 
 <!-- Section -->
-<section>
+<!-- <section>
 	<header class="major">
 		<h2>Ipsum sed dolor</h2>
 	</header>
@@ -93,5 +68,5 @@ layout: default
 				<li><a href="#" class="button">More</a></li>
 			</ul>
 		</article>
-	</div>
-</section>
+	</div> 
+</section>-->
