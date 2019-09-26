@@ -5,12 +5,15 @@ title: Hi, I'm Lev.
 
 <!-- Section -->
 <section>
-<h2 id="content">How are you?</h2>
 	<div class="inner">
-		<span class="icon major fa-hand-peace-o"></span>
-		<p>Hi everyone! My name is Lev and I am a Software Engineer at Bloomberg LP.<br/>
-		I’m fascinated with learning new material every day and expanding my knowledge not only in tech but also in arts, literature and sciences.<br/>Discovering solutions to the new questions is what motivates me for success.</p>
-		<a href="assets/doc/myResume.pdf" id="resume">My resume</a>
+		<article>
+			<img src="assets/images/me_2.jpeg" alt="" class="image right"/>
+			<h2>Hi, how are you?</h2>
+			<p>I'm Lev. I am 25 and I am a Software Engineer in NYC.<br/>
+			It's been around 7 years since I came to the US for school and later decided to steal your jobs and maybe do some things on the side.
+			As I started applying for graduate programs I discovered that writing is a challenge for me now! It was an interesting realization since reading, one would think, should have kept my self-expression abilities somewhat intact. However, it was probably more like expecting to become an adept artist by going to the art gallery every day. So... here we are, a blog.</p>
+		<p>If you are curious, here is <a href="assets/doc/myResume.pdf" id="resume">my resume.</a></p>
+		</article>
 	</div>
 </section>
 

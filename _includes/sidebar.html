@@ -15,27 +15,26 @@
             <h2>Menu</h2>
           </header>
           <ul>
-            <li><a href="{{ '' | absolute_url }}">Who am I</a></li>
-            <li><a href="{{ 'generic.html' | absolute_url }}">blog</a></li>
+            <li><a href="{{ '' | absolute_url }}">About Me</a></li>
+            <li><a href="{{ 'generic.html' | absolute_url }}">Blog</a></li>
           </ul>
         </nav>
       <!-- Section -->
         <section>
           <header class="major">
-            <h2>Let's stay in touch</h2>
+            <h2>Contact me</h2>
           </header>
           <ul class="contact">
-            <li class="github"><a href='{{site.github_url}}'>{{ site.github_username }}</a></li>
-            <li class="fas fa-envelope-open"><a href="#">{{ site.email }}</a></li>
-            <li class="fa-home">
-            {{ site.city }}, {{ site.state }}<br />
-            {{ site.country }}</li>
+            <li class="icon solid fa-envelope-open"><a href="#">{{ site.email }}</a></li>
+            <li class="icon brands fa-linkedin"><a href="{{ site.linkedin_url }}">Lev Gorbunov</a></li>
+            <li class="icon brands fa-github"><a href='{{site.github_url}}'>{{ site.github_username }}</a></li>
+            <li class="icon brands fa-goodreads"><a href="{{site.goodreads_url}}">lev_david</a></li>
           </ul>
         </section>
 
       <!-- Footer -->
         <footer id="footer">
-          <p class="copyright">&copy; {{ site.title }}. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>. Jekyll integration: <a href="https://andrewbanchi.ch">Andrew Banchich</a>.</p>
+          <p class="copyright">&copy; {{ site.title }}. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a></p>
         </footer>
 
     </div>

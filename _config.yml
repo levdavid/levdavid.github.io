@@ -26,8 +26,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ''
-github_username:  levdavid
 
 # Build settings
 theme: minima
@@ -50,13 +48,9 @@ country: United States of America
 # 500px_url:
 # facebook_url:
 github_url: https://github.com/levdavid
-# gitlab_url: https://gitlab.com/u/andrewbanchich
-# googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-# instagram_url: https://instagram.com
-# linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-# pinterest_url:
-# slack_url:
-# twitter_url: https://twitter.com/andrewbanchich
+github_username:  levdavid
+linkedin_url: https://www.linkedin.com/in/lev-gorbunov-1bb98747/
+goodreads_url: https://www.goodreads.com/user/show/91366516-lev-david
 
 # Build settings
 markdown: kramdown
